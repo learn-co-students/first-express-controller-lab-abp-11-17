@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 // Load Controllers
-const SiteController = requires(./controllers/SiteController.js)
+const SiteController = require(./controllers/SiteController.js) //require not requires
 
 // Routes
 app.get("/", SiteController.Index)
