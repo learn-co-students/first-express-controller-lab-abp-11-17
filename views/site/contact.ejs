@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Express Controllers</title>
+</head>
+
+<body>
+  <h1><%= name %>'s employment history include</h1>
+  <ul>
+    <% jobs.forEach(function(job){ %>
+      <li>
+        <%= job %>
+      </li>
+      <% }) %>
+  </ul>
+  <a href="/about">about</a>
+  <h4>I need a boyfriend</h4>
+  <a href="/index">index</a>
+</body>
+
+</html>
