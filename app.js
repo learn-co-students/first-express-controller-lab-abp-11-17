@@ -8,7 +8,7 @@ app.get('/', SiteController.Index);
 app.get('/about', SiteController.About);
 app.get('/contact', SiteController.Contact);
 
-/*
+/* commented out
 const greeting = SiteController.greeting;
 const name = SiteController.name;
 const jobs = SiteController.jobs;
@@ -35,6 +35,6 @@ app.get('/contact', function(req, resp) {
     name: name,
     jobs: jobs
   });
-});
+}); end of comment
 */
 module.exports = app
