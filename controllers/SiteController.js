@@ -16,8 +16,3 @@ const SiteController = {}
 
 
 module.exports = SiteController;
-
-
-// let SiteControllerAbout;
-// let SiteControllerIndex;
-// let SiteControllerContact;
