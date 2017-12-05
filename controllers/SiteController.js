@@ -1,4 +1,4 @@
-class SiteController{
+const SiteController={}
 
   static Index(req, resp){
     resp.render('site/index');
@@ -10,5 +10,5 @@ class SiteController{
     resp.render('site/contact');
   }
 
-}
+
 module.exports=SiteController;
