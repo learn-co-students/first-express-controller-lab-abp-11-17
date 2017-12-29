@@ -1,16 +1,11 @@
 var express = require('express')
+var controller = require('./controllers/SiteController.js')
 var app = express()
 
+ app.get('/', controller.Index)
 
+ app.get('/about', controller.About)
 
-module.exports = app
+ app.get('/contact', controller.Contact)
 
-
-
-
-
-
-
-
-
-
+ module.exports = app
